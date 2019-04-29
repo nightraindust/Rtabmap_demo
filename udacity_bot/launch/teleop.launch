@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+
+  <node pkg="udacity_bot" type="teleop" name="teleop"  output="screen">
+    <remap from="/teleop/cmd_vel" to="/cmd_vel"/>
+  </node>
+  
+</launch>
